@@ -1,0 +1,9 @@
+Large Language Models and RAG
+
+Large language models (LLMs) are Transformer-based models trained on huge text corpora to predict the next token. They can write, summarise, translate and answer questions, but their knowledge is frozen at the training cutoff and they may hallucinate, producing fluent but incorrect statements.
+
+Retrieval-Augmented Generation (RAG) reduces hallucination by retrieving relevant passages from an external knowledge base and giving them to the LLM as context. A RAG pipeline has an indexing phase, in which documents are split into chunks, converted to embeddings and stored in a vector database, and a query phase, in which the question is embedded, the nearest chunks are retrieved and the LLM generates a grounded answer.
+
+Embeddings are dense vectors where semantically similar text lies close together. Similarity is usually measured with cosine similarity. FAISS is a library by Meta for efficient similarity search over vectors. BM25 is a classic keyword ranking function based on term frequency and inverse document frequency. Hybrid retrieval combines BM25 and embeddings, and a cross-encoder re-ranker can re-score the top results for higher precision.
+
+Fine-tuning changes model weights to teach style or behaviour, whereas RAG supplies fresh facts at query time without retraining.

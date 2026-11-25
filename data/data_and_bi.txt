@@ -1,0 +1,7 @@
+Data Analytics and Business Intelligence
+
+Business intelligence (BI) turns raw data into dashboards and reports that support decisions. Power BI is a Microsoft tool with three main parts: Power Query for cleaning and transforming data, the data model for relationships and DAX measures, and the report canvas for visuals. A star schema has a central fact table, such as Sales, connected to dimension tables such as Date, Product and Customer through one-to-many relationships.
+
+DAX (Data Analysis Expressions) is the formula language of Power BI. The CALCULATE function changes filter context and is the most important DAX function. Time-intelligence functions such as SAMEPERIODLASTYEAR and DATESYTD require a proper date table. A KPI card highlights a single metric such as total revenue or profit margin.
+
+Drill-down lets users move through a hierarchy, for example Year to Quarter to Month, within the same visual. Drill-through lets users right-click a data point and jump to a detailed page filtered to that item. Slicers and cross-filtering make dashboards interactive.

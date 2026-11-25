@@ -1,0 +1,7 @@
+Machine Learning Overview
+
+Machine learning is a branch of artificial intelligence in which algorithms learn patterns from data instead of being explicitly programmed. There are three main paradigms. Supervised learning uses labelled examples to learn a mapping from inputs to outputs, for example classifying emails as spam or not spam. Unsupervised learning finds structure in unlabelled data, such as clustering customers into segments. Reinforcement learning trains an agent to take actions in an environment to maximise cumulative reward, as used in game-playing systems and robotics.
+
+Overfitting happens when a model memorises the training data and performs poorly on new data. Common remedies include collecting more data, using regularisation such as L2 weight decay or dropout, applying cross-validation, and early stopping. Underfitting is the opposite problem, where the model is too simple to capture the pattern.
+
+Common evaluation metrics for classification are accuracy, precision, recall, F1-score and ROC-AUC. For regression, mean squared error (MSE), mean absolute error (MAE) and R-squared are widely used. The bias-variance trade-off describes how simple models have high bias and low variance, while complex models have low bias and high variance.

@@ -1,0 +1,7 @@
+Deep Learning and Neural Networks
+
+Deep learning uses neural networks with many layers to learn hierarchical representations. A neuron computes a weighted sum of its inputs and passes it through an activation function such as ReLU, sigmoid or tanh. Networks are trained with backpropagation, which computes gradients of the loss with respect to every weight, and an optimiser such as stochastic gradient descent or Adam updates the weights.
+
+Convolutional neural networks (CNNs) are designed for images and use convolution filters to detect local features like edges and textures. Recurrent neural networks (RNNs) and LSTMs process sequences step by step. The Transformer architecture, introduced in 2017 in the paper Attention Is All You Need, replaced recurrence with self-attention, allowing parallel training and better modelling of long-range dependencies. Transformers are the foundation of modern language models such as BERT and GPT.
+
+Batch normalisation stabilises training by normalising layer activations. Transfer learning reuses a model pretrained on a large dataset and fine-tunes it on a smaller task-specific dataset, saving time and data.

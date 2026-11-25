@@ -1,0 +1,7 @@
+Python Tools for Data Science
+
+Pandas provides the DataFrame structure for tabular data, with functions for cleaning such as dropna, fillna, drop_duplicates and astype. NumPy supplies fast array operations. Matplotlib and Seaborn are used for visualisation. Scikit-learn offers a consistent API for machine learning with fit, predict and transform methods, plus utilities such as train_test_split, GridSearchCV and Pipeline.
+
+For deep learning, PyTorch and TensorFlow are the most popular frameworks. Hugging Face Transformers provides thousands of pretrained models and the sentence-transformers library produces text embeddings. LangChain and LlamaIndex are frameworks for building LLM applications including RAG pipelines.
+
+Virtual environments isolate project dependencies. A requirements.txt file lists the packages needed, and pip install -r requirements.txt recreates the environment.
